@@ -1,0 +1,16 @@
+{
+	"name": "peterbodnar.com/qrcoder",
+	"description": "Data to qrcode matrix encoder",
+	"keywords": ["qr", "qrcode"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"require": {
+		"php": "^5.4 || ^7.0",
+		"peterbodnar.com/mx": "^1.0",
+		"bacon/bacon-qr-code": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"com\\peterbodnar\\qrcoder\\": "src/"
+		}
+	}
+}
